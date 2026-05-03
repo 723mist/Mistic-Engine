@@ -13,6 +13,10 @@ set(PROJECT_SOURCES
         src/engine.h
         src/window/window.cpp
         src/window/window.h
+        src/render/render.cpp
+        src/render/render.h
+        src/render/mesh.cpp
+        src/render/mesh.h
 )
 
 include(FetchContent)

@@ -22,7 +22,7 @@ void Window::Init(const char* title, int width, int height, bool fullscreen) {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_RESIZABLE, fullscreen ? GLFW_TRUE : GLFW_FALSE);
 
-    GLFWwindow* window = glfwCreateWindow(width, height, title, NULL, NULL);
+    this->window = glfwCreateWindow(width, height, title, NULL, NULL);
 
     if (!window) return;
 

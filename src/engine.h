@@ -3,5 +3,6 @@
 #define MISTICENGINE_ENGINE_H
 
 #include "window/window.h"
+#include "render/render.h"
 
 #endif

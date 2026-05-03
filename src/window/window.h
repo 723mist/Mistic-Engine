@@ -7,7 +7,7 @@
 
 class Window {
 private:
-    GLFWwindow* window;
+    GLFWwindow* window = nullptr;
     int width, height = 0;
     const char* title = "Mistic Engine";
     bool fullscreen = false;
@@ -16,6 +16,7 @@ public:
     void Init(const char* title, int width, int height, bool fullscreen);
     void Update();
     void Close();
+
 };
 
 #endif
